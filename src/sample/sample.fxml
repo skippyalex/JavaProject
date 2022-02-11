@@ -22,6 +22,7 @@
          <children>
             <Button mnemonicParsing="false" text="Wait" />
             <RadioButton mnemonicParsing="false" text="What" />
+            <Label prefHeight="179.0" prefWidth="96.0" text="Label" />
          </children>
       </TextFlow>
    </children>
