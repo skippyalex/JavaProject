@@ -11,13 +11,13 @@ import javax.swing.*;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello Worldd");
-        primaryStage.setScene(new Scene(root, 300, 275));
-
-        JLabel centerLabel = new JLabel("Bottom");
-                primaryStage.show();
+    public void start(Stage primaryStage) throws Exception {
+       Parent root = FXMLLoader.load(getClass().getResource("main/java/sample.fxml"));
+   primaryStage.setTitle("Hello Worldd");
+       primaryStage.setScene(new Scene(root, 300, 275));
+//
+      JLabel centerLabel = new JLabel("Bottom");
+        primaryStage.show();
     }
 
 
